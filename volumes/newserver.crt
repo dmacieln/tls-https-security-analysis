@@ -1,0 +1,104 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 4096 (0x1000)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=US, ST=VA, L=Fairfax, O=GMU, OU=cs468, CN=myrootCA
+        Validity
+            Not Before: May  6 00:13:29 2026 GMT
+            Not After : Aug  7 00:13:29 2033 GMT
+        Subject: C=US, ST=VA, O=GMU, CN=www.macielnava2026.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:c2:be:e6:f0:14:92:5d:a9:50:a8:0a:99:55:a5:
+                    88:84:42:6c:4f:74:64:2e:75:fb:79:54:f3:9c:15:
+                    ab:5e:f5:3c:1f:32:c6:a7:26:f7:7d:28:f7:c1:27:
+                    c5:99:4d:26:f4:29:51:59:0c:d0:49:f7:f0:c4:b7:
+                    ab:75:51:7a:6a:c3:7e:22:90:33:93:eb:b8:a7:65:
+                    06:67:ab:e7:5f:8d:fa:9e:53:3d:2d:d9:2c:b3:9d:
+                    d8:a2:95:81:44:a0:52:64:29:f4:06:cc:18:77:e6:
+                    ad:66:8a:81:06:d4:8b:07:5e:b1:8d:63:f8:6d:20:
+                    37:c7:48:98:c2:c6:af:8a:80:51:84:2e:80:99:a2:
+                    ee:e9:6f:e8:22:55:bb:98:f0:70:f4:dc:8b:d3:e9:
+                    d6:44:d3:38:af:e2:8c:3f:a7:ef:2a:96:3c:00:da:
+                    6b:7c:50:fa:39:cb:f7:eb:e8:3b:2a:ca:05:3d:b3:
+                    57:58:31:ee:3d:90:3e:f3:8f:cd:2f:8b:47:30:74:
+                    c6:80:a2:88:97:41:0e:fe:bc:58:32:b3:bd:7d:e2:
+                    a9:c3:0c:c2:1c:56:af:63:13:1f:3a:66:fa:8d:bd:
+                    7e:ee:ab:d1:c6:35:de:19:24:99:90:e5:c6:2f:8c:
+                    38:70:9f:e7:9d:4e:02:c1:7c:2f:e4:52:43:c2:3e:
+                    cc:ff
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                OpenSSL Generated Certificate
+            X509v3 Subject Key Identifier: 
+                97:F1:C8:3A:04:A8:A0:66:47:F4:76:D8:5E:6A:41:7D:47:B6:24:A0
+            X509v3 Authority Key Identifier: 
+                keyid:A7:2A:7D:FA:2C:3D:C1:8D:3C:3B:FF:DF:0E:AB:34:82:50:FE:6A:F5
+
+            X509v3 Subject Alternative Name: 
+                DNS:www.macielnava2026.com, DNS:www.macielnava2026A.com, DNS:*.macielnava2026.com
+    Signature Algorithm: sha256WithRSAEncryption
+         9c:cf:2f:bc:47:91:93:9c:0f:4d:2a:a3:a2:fc:6c:61:30:74:
+         5a:a8:05:4e:b3:0e:df:11:ac:c0:52:22:f3:f1:43:09:92:f2:
+         2d:14:e7:29:e5:95:0f:af:d6:f0:d3:4f:a9:cf:c9:d7:cd:10:
+         a7:16:d1:9b:88:e7:8a:65:bc:70:65:bf:5d:a9:bd:0a:70:05:
+         39:5b:71:04:81:17:1b:b1:e0:a8:1a:b2:b3:e1:bd:39:e2:2b:
+         58:31:eb:a2:d8:0e:5b:20:e7:dc:32:bf:1b:a3:6d:28:af:13:
+         ae:82:fd:14:fd:1f:eb:69:52:ac:24:47:0f:cf:ab:5e:82:c7:
+         c9:9e:73:56:be:6f:a2:e5:f0:63:c5:e2:74:6e:c8:df:7b:f5:
+         5e:57:0a:e4:62:cb:b5:57:d3:c2:1b:55:85:2c:6b:8d:6e:4c:
+         4f:15:a1:82:de:2d:25:ac:53:7f:fe:e0:bd:64:a4:86:13:46:
+         9e:d4:d8:05:71:0f:e5:3b:96:20:bf:44:bd:55:61:3c:46:e2:
+         05:ac:43:72:86:36:49:ce:92:2b:6a:fa:7a:2b:cc:ef:51:db:
+         56:56:0a:6d:e7:b0:bf:89:1b:91:df:61:90:6a:78:8a:91:41:
+         2f:55:31:08:65:5e:0d:f1:d9:30:27:db:0d:f5:94:17:0a:e9:
+         34:d0:01:21:96:b9:93:77:f8:66:ab:08:ac:35:3d:53:15:da:
+         a6:98:e6:b0:7c:9d:90:30:7d:45:9c:be:ff:03:5e:19:ca:e7:
+         d8:a0:ba:23:ad:74:ef:c6:54:f3:f4:f3:fb:59:25:c3:04:f6:
+         b4:e5:44:7e:32:ed:30:8f:4b:60:02:b5:aa:62:ec:57:8d:d2:
+         4d:69:9a:77:f9:bf:e0:18:a8:6c:57:f0:3a:e7:6d:95:8e:1c:
+         4e:ff:ef:cd:23:d0:07:f0:c0:12:ff:2a:5a:ca:bf:c4:8f:8c:
+         32:31:d1:6d:9e:fc:22:71:2d:94:e8:2a:d1:94:18:d3:30:8a:
+         f0:07:b0:41:14:a7:d5:5b:c8:25:d3:c1:32:37:15:50:9e:e9:
+         58:cc:81:aa:4f:38:ff:46:38:4a:fe:0b:e0:0f:19:7c:9c:7b:
+         54:19:73:e8:cb:7e:3a:86:e6:c7:b7:22:b5:f7:dd:4e:14:7e:
+         a0:69:c3:09:dc:32:dc:70:c0:6a:f7:18:9a:37:0a:e9:09:d1:
+         2f:42:2d:e3:0a:a0:e3:dd:f4:21:ca:e4:20:21:b7:a3:d8:da:
+         cd:31:e8:62:97:96:2e:f0:ba:de:02:54:2a:e4:0a:d5:fd:c7:
+         89:2a:f9:fa:a0:59:56:e2:c3:34:bd:91:76:f3:d4:73:7a:b7:
+         29:18:21:91:c9:98:d5:21
+-----BEGIN CERTIFICATE-----
+MIIE8TCCAtmgAwIBAgICEAAwDQYJKoZIhvcNAQELBQAwXTELMAkGA1UEBhMCVVMx
+CzAJBgNVBAgMAlZBMRAwDgYDVQQHDAdGYWlyZmF4MQwwCgYDVQQKDANHTVUxDjAM
+BgNVBAsMBWNzNDY4MREwDwYDVQQDDAhteXJvb3RDQTAeFw0yNjA1MDYwMDEzMjla
+Fw0zMzA4MDcwMDEzMjlaMEkxCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJWQTEMMAoG
+A1UECgwDR01VMR8wHQYDVQQDDBZ3d3cubWFjaWVsbmF2YTIwMjYuY29tMIIBIjAN
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwr7m8BSSXalQqAqZVaWIhEJsT3Rk
+LnX7eVTznBWrXvU8HzLGpyb3fSj3wSfFmU0m9ClRWQzQSffwxLerdVF6asN+IpAz
+k+u4p2UGZ6vnX436nlM9Ldkss53YopWBRKBSZCn0BswYd+atZoqBBtSLB16xjWP4
+bSA3x0iYwsavioBRhC6AmaLu6W/oIlW7mPBw9NyL0+nWRNM4r+KMP6fvKpY8ANpr
+fFD6Ocv36+g7KsoFPbNXWDHuPZA+84/NL4tHMHTGgKKIl0EO/rxYMrO9feKpwwzC
+HFavYxMfOmb6jb1+7qvRxjXeGSSZkOXGL4w4cJ/nnU4CwXwv5FJDwj7M/wIDAQAB
+o4HOMIHLMAkGA1UdEwQCMAAwLAYJYIZIAYb4QgENBB8WHU9wZW5TU0wgR2VuZXJh
+dGVkIENlcnRpZmljYXRlMB0GA1UdDgQWBBSX8cg6BKigZkf0dtheakF9R7YkoDAf
+BgNVHSMEGDAWgBSnKn36LD3BjTw7/98OqzSCUP5q9TBQBgNVHREESTBHghZ3d3cu
+bWFjaWVsbmF2YTIwMjYuY29tghd3d3cubWFjaWVsbmF2YTIwMjZBLmNvbYIUKi5t
+YWNpZWxuYXZhMjAyNi5jb20wDQYJKoZIhvcNAQELBQADggIBAJzPL7xHkZOcD00q
+o6L8bGEwdFqoBU6zDt8RrMBSIvPxQwmS8i0U5ynllQ+v1vDTT6nPydfNEKcW0ZuI
+54plvHBlv12pvQpwBTlbcQSBFxux4KgasrPhvTniK1gx66LYDlsg59wyvxujbSiv
+E66C/RT9H+tpUqwkRw/Pq16Cx8mec1a+b6Ll8GPF4nRuyN979V5XCuRiy7VX08Ib
+VYUsa41uTE8VoYLeLSWsU3/+4L1kpIYTRp7U2AVxD+U7liC/RL1VYTxG4gWsQ3KG
+NknOkitq+norzO9R21ZWCm3nsL+JG5HfYZBqeIqRQS9VMQhlXg3x2TAn2w31lBcK
+6TTQASGWuZN3+GarCKw1PVMV2qaY5rB8nZAwfUWcvv8DXhnK59iguiOtdO/GVPP0
+8/tZJcME9rTlRH4y7TCPS2ACtapi7FeN0k1pmnf5v+AYqGxX8DrnbZWOHE7/780j
+0AfwwBL/KlrKv8SPjDIx0W2e/CJxLZToKtGUGNMwivAHsEEUp9VbyCXTwTI3FVCe
+6VjMgapPOP9GOEr+C+APGXyce1QZc+jLfjqG5se3IrX33U4UfqBpwwncMtxwwGr3
+GJo3CukJ0S9CLeMKoOPd9CHK5CAht6PY2s0x6GKXli7wut4CVCrkCtX9x4kq+fqg
+WVbiwzS9kXbz1HN6tykYIZHJmNUh
+-----END CERTIFICATE-----
