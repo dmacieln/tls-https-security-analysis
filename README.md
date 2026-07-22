@@ -2,21 +2,24 @@
 
 ## Overview
 
-This project explores the core concepts of Transport Layer Security (TLS) and HTTPS by implementing and analyzing secure communication protocols using Python, OpenSSL, Wireshark, and Kali Linux. It demonstrates TLS handshakes, certificate validation, hostname verification, HTTPS communication, TLS server implementation, Subject Alternative Name (SAN) certificates, browser certificate trust, and HTTPS man-in-the-middle (MITM) proxy simulation.
+This project explores the implementation and analysis of Transport Layer Security (TLS) and HTTPS using Python, OpenSSL, Wireshark, and Kali Linux. It demonstrates secure client-server communication through TLS handshakes, certificate validation, hostname verification, browser trust configuration, Subject Alternative Name (SAN) certificates, and HTTPS man-in-the-middle (MITM) proxy simulation. These exercises provide practical experience with the technologies that secure modern web communications.
 
 ---
 
-## Features
+## Skills Demonstrated
 
-- TLS handshake analysis
-- Certificate Authority (CA) validation
-- Hostname verification
-- HTTPS request and response testing
-- TLS server implementation
-- Browser certificate trust configuration
-- Subject Alternative Name (SAN) certificate deployment
-- HTTPS MITM proxy simulation
-- Network traffic analysis using Wireshark
+- TLS 1.3 Handshake Analysis
+- HTTPS Communication
+- Certificate Authority (CA) Validation
+- Hostname Verification
+- TLS Server Development
+- X.509 Certificate Management
+- Subject Alternative Name (SAN) Certificates
+- Browser Certificate Trust
+- HTTPS MITM Proxy Simulation
+- OpenSSL Certificate Generation
+- Network Traffic Analysis
+- Docker-Based Lab Environment
 
 ---
 
@@ -26,85 +29,110 @@ This project explores the core concepts of Transport Layer Security (TLS) and HT
 - OpenSSL
 - Wireshark
 - Kali Linux
-- HTTPS
+- Docker
 - TLS 1.3
+- HTTPS
 - X.509 Certificates
 - Linux Terminal
 
 ---
 
-## Project Structure
+## Repository Structure
 
 ```text
 tls-https-security-analysis/
-├── handshake.py
-├── server.py
-├── httpsproxy.py
-├── server_openssl.cnf
-├── TLS-HTTPS-Security-Analysis.pdf
+│
 ├── README.md
-└── LICENSE
+├── LICENSE
+├── TLS-HTTPS-Security-Analysis.pdf
+├── docker-compose.yml
+└── volumes/
+    ├── handshake.py
+    ├── server.py
+    ├── httpsproxy.py
+    ├── server_openssl.cnf
+    ├── myopenssl.cnf
+    ├── client-certs/
+    ├── server-certs/
+    ├── demoCA/
+    ├── example.crt
+    ├── example.csr
+    ├── example.key
+    ├── newserver.crt
+    ├── newserver.csr
+    ├── newserver.key
+    ├── practice.crt
+    ├── practice.csr
+    └── practice.key
 ```
 
 ---
 
-## TLS Handshake & Certificate Analysis
+## Repository Layout
 
-Established a secure TLS connection to a remote server and analyzed the complete handshake process using Wireshark. Examined the negotiated TLS version, cipher suite, certificate chain, and TCP/TLS packet exchange to understand how secure communication is established.
-
----
-
-## Certificate Authority Validation
-
-Configured a custom certificate directory and manually trusted the required Certificate Authorities. Verified successful TLS connections after importing and hashing the appropriate CA certificates using OpenSSL.
+The project was developed inside a Docker-based cybersecurity lab environment. The `volumes/` directory mirrors the shared Docker volume used by the client and server containers and contains the Python source code, certificate files, OpenSSL configurations, and supporting resources required to reproduce the TLS experiments.
 
 ---
 
-## Hostname Verification Analysis
+## Project Components
 
-Demonstrated how hostname verification protects clients from accepting certificates issued to different domains. Tested successful and failed TLS connections by enabling and disabling hostname verification.
+### TLS Handshake & Certificate Analysis
 
----
-
-## HTTPS Request & Response Testing
-
-Extended the TLS client to send HTTPS GET requests and receive encrypted responses from a remote web server. Retrieved both web content and binary image data to verify successful encrypted communication.
+Established a secure TLS connection to a remote server and analyzed the complete TLS handshake using Wireshark. Examined TCP connection establishment, TLS negotiation, certificate exchange, and cipher suite selection to understand how encrypted communication is established.
 
 ---
 
-## TLS Server Implementation
+### Certificate Authority Validation
 
-Developed a custom Python TLS server using self-generated certificates. Configured secure client-server communication and validated encrypted HTTP requests between the client and server.
-
----
-
-## Browser-Based TLS Validation
-
-Imported a custom Certificate Authority into Firefox to establish browser trust. Verified successful HTTPS communication between the browser and the custom TLS server while capturing the encrypted traffic using Wireshark.
+Configured a custom certificate directory and manually imported trusted Certificate Authorities. Verified secure TLS communication after validating and hashing CA certificates using OpenSSL.
 
 ---
 
-## SAN Certificate Deployment
+### Hostname Verification Analysis
 
-Created and deployed X.509 certificates containing multiple Subject Alternative Names (SANs). Configured OpenSSL to support multiple DNS entries and verified secure HTTPS connections using the updated certificates.
+Demonstrated how hostname verification protects clients from accepting certificates issued for different domains. Tested successful and failed TLS connections by enabling and disabling hostname verification.
 
 ---
 
-## HTTPS MITM Proxy Simulation
+### HTTPS Request & Response Testing
 
-Implemented an HTTPS man-in-the-middle proxy using forged certificates signed by a trusted Certificate Authority. Demonstrated how trusted certificates can intercept encrypted HTTPS traffic when a client accepts a malicious CA.
+Extended the TLS client to send HTTPS GET requests and receive encrypted responses from remote web servers. Retrieved both web pages and binary image data over encrypted HTTPS connections.
+
+---
+
+### TLS Server Implementation
+
+Developed a Python-based TLS server using self-generated certificates and configured secure client-server communication through encrypted HTTPS requests.
+
+---
+
+### Browser-Based TLS Validation
+
+Configured Firefox to trust a custom Certificate Authority and successfully established HTTPS communication with the custom TLS server while monitoring encrypted traffic using Wireshark.
+
+---
+
+### SAN Certificate Deployment
+
+Generated X.509 certificates containing multiple Subject Alternative Names (SANs) using OpenSSL and verified successful HTTPS communication across multiple hostnames.
+
+---
+
+### HTTPS MITM Proxy Simulation
+
+Implemented an HTTPS man-in-the-middle proxy using forged certificates signed by a trusted Certificate Authority to demonstrate how trusted certificates can be abused to intercept encrypted HTTPS traffic.
 
 ---
 
 ## What I Learned
 
-This project provided practical experience implementing and analyzing TLS and HTTPS security mechanisms. I gained a deeper understanding of certificate validation, hostname verification, secure client-server communication, TLS server deployment, browser trust stores, SAN certificates, and HTTPS interception techniques. These exercises reinforced how TLS protects confidentiality, authentication, and data integrity in modern web communications.
+This project provided practical experience implementing and analyzing TLS and HTTPS security mechanisms using Python, OpenSSL, Docker, and Wireshark. I gained a deeper understanding of certificate authorities, hostname verification, browser trust stores, TLS handshakes, SAN certificates, HTTPS communication, and encrypted traffic interception. These exercises reinforced how TLS provides confidentiality, authentication, and data integrity in modern network security.
 
 ---
 
 ## Documentation
 
-A detailed project report containing implementation details, screenshots, methodology, and analysis is included in this repository.
+A detailed report containing implementation steps, screenshots, configurations, and analysis is included in this repository.
 
 **TLS-HTTPS-Security-Analysis.pdf**
 
@@ -112,11 +140,12 @@ A detailed project report containing implementation details, screenshots, method
 
 ## Future Improvements
 
+- Implement Mutual TLS (mTLS) authentication
 - Support additional TLS versions and cipher suites
 - Automate certificate generation using Bash scripts
-- Implement mutual TLS (mTLS) authentication
-- Add certificate revocation checking
-- Expand the HTTPS proxy with request logging and filtering
+- Implement certificate revocation checking
+- Expand the HTTPS proxy with request inspection and filtering
+- Add automated testing for TLS connections
 
 ---
 
